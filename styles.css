@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url(./programa-ratinho.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  background-color: #000000AA;
+  margin-top: 25vh;
+  border-radius: 15px;
+}
+
+.container-botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 40px 0 40px;
+}
+
+.botao {
+  width: 50%;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 40px;
+  color: #FFCC00;
+}
